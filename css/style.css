@@ -1,0 +1,67 @@
+#top-bar {
+    display: block;
+    height: 60px;
+    width: 100%;
+    background-color: red;
+}
+
+#menu {
+    display: inline-block;
+    height: 50px;
+    width: 15%;
+    background-color: gray;
+}
+
+#logo {
+    display: inline-block;
+    height: 50px;
+    width: 15%;
+    background-color: black;
+}
+
+#searchbar {
+    display: inline-block;
+    height: 50px;
+    width: 40%;
+    background-color: blanchedalmond;
+}
+
+#other-options {
+    display: inline-block;
+    height: 50px;
+    width: 30%;
+    background-color: blue;
+}
+
+#main-container {
+    height: 1100px;
+    width: 100%;
+    background-color: burlywood;
+}
+
+#video-container {
+    display: inline-block;
+    height: 600px;
+    width: 60%;
+    background-color: gray;
+}
+
+#sidebar {
+    display: inline-block;
+    height: 600px;
+    width: 40%;
+    background-color: black;
+}
+
+#info-section {
+    height: 200px;
+    width: 100%;
+    background-color: greenyellow;
+}
+
+#comment-section {
+    height: 200px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
