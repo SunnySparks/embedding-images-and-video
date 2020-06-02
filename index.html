@@ -4,17 +4,34 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><!--se busca como boostrap awesome cdn-->
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
     <div class="container">
-    <header>
-        <div id="top-bar">
-            <div id="menu"></div>
-            <div id="logo"></div>
-            <div id="searchbar"></div>
-            <div id="other-options"></div>
-    </header>
+    
+        <div class='nav-container'>
+            <nav id="menu">
+                <div class='lists'>
+                    <img src="img/menu.png" id="imgMenu"/>
+                </div>
+                <div id="logo" class='lists'>logo</div>
+                
+                <div id="searchbar" class='lists'><form><input type='text' placeholder='Search'><input type='submit' value='Click'></form></div>
+                <div id="other-options" class='lists'>
+                    <ul class='list'>
+                        <li>1<i></i></li>
+                        <li>2<i></i></li>
+                        <li>3<i></i></li>
+                        <li>4<i></i></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        
+          
+    
     <div id="main-container">
         <div id="video-container"></div>
         <div id="sidebar"></div>
