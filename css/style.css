@@ -2,28 +2,44 @@
 
 
 #menu {
+    position:absolute;
     
-    height: 50px;
-    width: 100%;
-    position:fixed;
-    display: inline-block;
-    background-color:#252525;
 }
-body{
-    position:relative;
-}
+
 
 
 
 #searchbar {
     
-    padding-top:10px;
-    text-align:center;  
+   
+    
+    
+    
     
 }
 .list{
+    position:relative;  
+}
+.list li{
     display:inline-block;
-    
+}
+.nav-container{
+    position:fixed;
+    height: 50px;
+    width: 100%;   
+    background-color:#252525;
 }
 
 
+
+.lists{
+    position:relative;
+    display:inline-block;
+    color:white;
+}
+#other-option{
+    position: absolute;
+}
+.list{
+    position:absolute;
+}
