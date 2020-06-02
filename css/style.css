@@ -1,67 +1,29 @@
-#top-bar {
-    display: block;
-    height: 60px;
-    width: 100%;
-    background-color: red;
-}
+
+
 
 #menu {
-    display: inline-block;
+    
     height: 50px;
-    width: 15%;
-    background-color: gray;
+    width: 100%;
+    position:fixed;
+    display: inline-block;
+    background-color:#252525;
+}
+body{
+    position:relative;
 }
 
-#logo {
-    display: inline-block;
-    height: 50px;
-    width: 15%;
-    background-color: black;
-}
+
 
 #searchbar {
-    display: inline-block;
-    height: 50px;
-    width: 40%;
-    background-color: blanchedalmond;
+    
+    padding-top:10px;
+    text-align:center;  
+    
+}
+.list{
+    display:inline-block;
+    
 }
 
-#other-options {
-    display: inline-block;
-    height: 50px;
-    width: 30%;
-    background-color: blue;
-}
-
-#main-container {
-    height: 1100px;
-    width: 100%;
-    background-color: burlywood;
-}
-
-#video-container {
-    display: inline-block;
-    height: 600px;
-    width: 60%;
-    background-color: gray;
-}
-
-#sidebar {
-    display: inline-block;
-    height: 600px;
-    width: 40%;
-    background-color: black;
-}
-
-#info-section {
-    height: 200px;
-    width: 100%;
-    background-color: greenyellow;
-}
-
-#comment-section {
-    height: 200px;
-    width: 100%;
-    background-color: whitesmoke;
-}
 
