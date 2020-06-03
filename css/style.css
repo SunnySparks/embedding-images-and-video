@@ -35,7 +35,6 @@
 .lists{
     position:relative;
     display:inline-block;
-    color:white;
 }
 #other-option{
     position: absolute;
@@ -43,4 +42,166 @@
 
 #imgMenu {
     height: 40px;
+}
+
+.video-info {
+    display: inline;
+    border: 1px solid green;
+}
+
+.videos {
+    display: inline;
+    border: 1px solid purple;
+}
+
+#video-itself {
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+
+#video-recom {
+    display: inline-block;
+    border: 1px solid blue;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    width: 400px;
+}
+
+#video-container {
+    padding-left: 1%;
+    padding-top: 6%;
+}
+
+#mini-menu {
+    display: inline;
+    margin-bottom: 10%;
+}
+
+.video-and-recom {
+    display: inline;
+}
+
+.video-recom {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.canal {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.canal-vistas {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+#switch {
+    height: 20px;
+    padding-bottom: 0%;
+}
+
+.recom-thumbnails {
+    margin-top: 10%;
+    border: 1px solid red;
+    padding-top: 10%;
+}
+.recom-thumbnails2 {
+    margin-top: 10%;
+    border: 1px solid red;
+    padding-top: 10%;
+}
+
+.video-and-recom {
+    display: inline;
+    padding-right: 4%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#upnext{
+    margin-right: 40%;
+}
+
+.switch {
+    display: inline;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#video-info {
+    padding-left: 1%;
+}
+
+#videos {
+    display: inline-block;
+    margin-left: 2%;
+    border: 1px solid blue;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+}
+
+.info-and-vids {
+    display: inline-block;
+}
+
+
+
+#like {
+    height: 20px;
+}
+
+#dislike {
+    height: 20px;
+}
+
+#info-text {
+    display: block;
+}
+
+#views {
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#like-and-dislike {
+    margin-left: 30%;
+}
+
+#video-info {
+    display: inline-block;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#video-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+#recom-text {
+    display: inline;
+    text-align: left;
+}
+
+.recom1 {
+    display: inline-block;
+}
+
+.vid-title {
+    display: block;
+}
+
+.canal  {
+    display: block;
+}
+
+.canal-vistas {
+        display: block;
 }
