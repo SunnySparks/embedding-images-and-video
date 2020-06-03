@@ -3,10 +3,7 @@
     margin:0px;
     box-sizing: border-box;
 }
-.container{
-    width:1326px;
-    
-}
+
 
 #menu {
     /* position:absolute; */
@@ -34,7 +31,7 @@
     position:fixed;
     height: 50px;
     width: 100%;   
-    background-color:#252525;
+    background-color:white;
 }
 
 
@@ -50,15 +47,17 @@
 .search{
     padding: 8px;
     margin-bottom: 4px;
-    width: 70%
+    width: 70%;
+    border:2px solid rgb(226, 219, 219);
 
 }
-.submit{
+button{
     padding: 8px;
+    border:2px solid rgb(226, 219, 219);
     margin-bottom: 4px;
-    background:#21262f;
-    color: white;
-    border:1px solid black;
+    background:rgb(248, 248, 248);
+    width:50px;
+    
     border-radius:5%;
 }
 .list{   
@@ -70,8 +69,17 @@
     list-style: none;
     margin-right: 20px;
 }
-.square{
-    background: white;
+
+
+i{
+    color:black;
+    font-size:20px;
+}
+/*navbar classes up from here*/
+.container{
+    width:1326px;
+    display: block;
+    
 }
 #main-container{
     display: flex;
@@ -93,6 +101,71 @@
     margin-left:120px;
    
     
+}
+.op{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+#comment-section{
+    width:61%;
+    margin-left:55px;
+    margin-top: 30px;
+}
+.coment{
+    display: flex;
+    flex-flow: row wrap;
+    padding:15px;
+    
+
+}
+.user-comment{
+    width:80%;
+    margin-left:10px;
+}
+.comment-icons{
+    margin-left:10px;
+    margin-top:10px;
+}
+.comment-icons i{
+    padding-right: 30px;
+}
+.write-form{
+    background: none;
+    border:none;
+    font-size:20px;
+    margin-top:15px;
+    border-bottom: 1px solid black;
+}
+.user-img{
+    width: 5%;
+}
+h3{
+
+    padding-bottom: 10px;
+}
+/*from here up the comment styles*/
+
+#sidebar{
+    margin-top:30px;
+    
+}
+.list-sidebar{
+    list-style: none;
+}
+.youtube-suggestion{
+    margin-bottom: 5px;
+}
+.list-sidebar li{
+    display:flex;
+    flex-flow: row wrap;
+}
+.videos-description{
+    margin-left:10px;
+    
+}
+.videos-description p{
+    color:grey;
 }
 
 
