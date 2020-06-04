@@ -4,34 +4,29 @@
     box-sizing: border-box;
 }
 
-
 #menu {
-    /* position:absolute; */
     display:flex;
     display:-webkit-flex;
-    display:-ms-flexbox; 
+    display:-ms-flexbox;
     justify-content:space-between;
     flex-flow: row wrap;
-    
 }
+
 .lists{
-    /* position:relative;
-    display:inline-block; */
-    
-    
-    
+    color:white;
     padding:10px 5px 0px 15px;
 }
 
-
+#logo{
+    width:30px;
+}
 
 .nav-container{
     position:fixed;
     height: 50px;
-    width: 100%;   
+    width: 100%;
     background-color:white;
 }
-
 
 #searchbar{
     width: 50%;
@@ -39,57 +34,61 @@
 
 .ad{
     padding-left: 0px;
-    
     margin-left: 5px;
 }
+
 .search{
     padding: 8px;
     margin-bottom: 4px;
     width: 70%;
     border:2px solid rgb(226, 219, 219);
-
 }
+
 button{
     padding: 8px;
     border:2px solid rgb(226, 219, 219);
     margin-bottom: 4px;
     background:rgb(248, 248, 248);
     width:50px;
-    
     border-radius:5%;
 }
-.list{   
+
+.list{
     display: flex;
     justify-content: left;
-    flex-flow: row wrap;   
+    flex-flow: row wrap;
 }
+
 .list li{
     list-style: none;
     margin-right: 20px;
 }
 
-
 i{
     color:black;
     font-size:20px;
 }
+
 .sing{
     color:white;
     background: rgb(92, 92, 246);
 }
+
 .logo{
     padding-top: 5px;
 }
+
 /*navbar classes up from here*/
 .container{
     width:1326px;
     display: block;
-    
 }
+
 #main-container{
     display: flex;
     flex-direction: column;
 }
+
 #video-container{
     flex-flow: row;
     height: 620px;
@@ -97,44 +96,46 @@ i{
     padding-left: 1%;
     padding-top: 6%;
 }
+
 .video{
     height:720px;
     width: 52%;
     border-right:1px solid white;
     margin-top: 81px;
     margin-left:120px;
-   
-    
 }
+
 .op{
     display: flex;
     flex-flow: row wrap;
-
 }
+
 #comment-section{
     width:61%;
     margin-left:55px;
     margin-top: 30px;
-    
 }
+
 .coment{
     display: flex;
     flex-flow: row wrap;
     padding:15px;
-    
-
 }
+
 .user-comment{
     width:80%;
     margin-left:10px;
 }
+
 .comment-icons{
     margin-left:10px;
     margin-top:10px;
 }
+
 .comment-icons i{
     padding-right: 30px;
 }
+
 .write-form{
     background: none;
     border:none;
@@ -142,39 +143,58 @@ i{
     margin-top:15px;
     border-bottom: 1px solid black;
 }
+
 .user-img{
     width: 5%;
 }
-h3{
 
+h3{
     padding-bottom: 10px;
 }
-/*from here up the comment styles*/
 
+/*from here up the comment styles*/
 #sidebar{
     margin-top:30px;
-    
 }
+
 .list-sidebar{
     list-style: none;
 }
+
 .youtube-suggestion{
     margin-bottom: 5px;
 }
+
 .list-sidebar li{
     display:flex;
     flex-flow: row wrap;
 }
+
 .videos-description{
     margin-left:10px;
-    
 }
+
 .videos-description p{
     color:grey;
 }
 
+/*Replace these with flexbox instead */
+.list{
+    position:relative;
+}
 
+.list li{
+    display:inline;
+}
+/* --------------------------------- */
 
+.nav-container{
+    position:fixed;
+    height: 50px;
+    width: 100%;
+}
+
+/*Replace with flexbox*/
 #other-option{
     position: absolute;
 }
@@ -184,6 +204,7 @@ h3{
     height: 40px;
 }
 
+/*Replace with flexbox*/
 .video-info {
     display: inline;
 }
@@ -191,6 +212,7 @@ h3{
 .videos {
     display: inline;
 }
+/* -----------------------------*/
 
 #video-itself {
     display: flex;
@@ -207,8 +229,6 @@ h3{
     padding-right: 5%;
     width: 500px;
 }
-
-
 
 #mini-menu {
     display: flex;
@@ -253,6 +273,7 @@ h3{
     flex-direction: row;
     margin-top: 1%;
 }
+
 #recom-thumbnails {
     display: flex;
     flex-direction: column;
@@ -260,13 +281,14 @@ h3{
 
 #video-and-recom {
     display: flex;
-    
+    flex-direction: ; /* check the ID to see what it does */
 }
 
 #upnext{
     margin-right: 40%;
 }
 
+/* Replace the display property */
 .switch {
     display: inline;
     padding-left: 4%;
@@ -281,12 +303,6 @@ h3{
     padding-right: 5%;
 }
 
-.info-and-vids {
-
-}
-
-
-
 #imgreaction {
     height: 20px;
 }
@@ -297,6 +313,7 @@ h3{
     padding-left: 1%;
     padding-bottom: 2%;
 }
+/* ---------------------------------------- */
 
 #views {
     margin-right: 10%;
@@ -326,6 +343,7 @@ h3{
     text-align: left;
 }
 
+/* Replace display property */
 .recom1 {
     display: inline-block;
 }
@@ -341,6 +359,7 @@ h3{
 .canal-vistas {
         display: block;
 }
+/* ---------------------------------- */
 
 #info-and-vids {
     display: flex;
