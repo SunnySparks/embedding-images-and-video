@@ -19,12 +19,10 @@
     display:inline-block; */
     
     
-    color:white;
+    
     padding:10px 5px 0px 15px;
 }
-#logo{   
-    width:30px;   
-}
+
 
 
 .nav-container{
@@ -75,6 +73,13 @@ i{
     color:black;
     font-size:20px;
 }
+.sing{
+    color:white;
+    background: rgb(92, 92, 246);
+}
+.logo{
+    padding-top: 5px;
+}
 /*navbar classes up from here*/
 .container{
     width:1326px;
@@ -110,6 +115,7 @@ i{
     width:61%;
     margin-left:55px;
     margin-top: 30px;
+    
 }
 .coment{
     display: flex;
@@ -167,23 +173,7 @@ h3{
     color:grey;
 }
 
-.list{
-    position:relative;  
-}
-.list li{
-    display:inline;
-}
-.nav-container{
-    position:fixed;
-    height: 50px;
-    width: 100%;   
-    /*background-color:#252525;*/
-}
 
-.lists{
-    position:relative;
-    display:inline-block;
-}
 
 #other-option{
     position: absolute;
@@ -270,7 +260,7 @@ h3{
 
 #video-and-recom {
     display: flex;
-    flex-direction:
+    
 }
 
 #upnext{
