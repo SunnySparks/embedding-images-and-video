@@ -303,7 +303,7 @@ h3{
     padding-right: 5%;
 }
 
-#imgreaction {
+.imgreaction {
     height: 20px;
 }
 
@@ -366,7 +366,7 @@ h3{
     flex-direction: column;
 }
 
-#options {
+.options {
     margin-left: 1%;
     margin-right: 1%;
 }
