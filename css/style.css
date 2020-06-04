@@ -14,6 +14,7 @@
     
 }
 .lists{
+<<<<<<< HEAD
     color:white;
     padding:10px 5px 0px 15px;
 }
@@ -21,6 +22,16 @@
 #logo{   
     width:30px;   
 }
+=======
+    /* position:relative;
+    display:inline-block; */
+    
+    
+    
+    padding:10px 5px 0px 15px;
+}
+
+>>>>>>> cba34b83fb9d15dfd50a97ecfbf01b0b335e65e8
 
 .nav-container{
     position:fixed;
@@ -70,7 +81,17 @@ i{
     color:black;
     font-size:20px;
 }
+<<<<<<< HEAD
 
+=======
+.sing{
+    color:white;
+    background: rgb(92, 92, 246);
+}
+.logo{
+    padding-top: 5px;
+}
+>>>>>>> cba34b83fb9d15dfd50a97ecfbf01b0b335e65e8
 /*navbar classes up from here*/
 .container{
     width:1326px;
@@ -107,6 +128,7 @@ i{
     width:61%;
     margin-left:55px;
     margin-top: 30px;
+    
 }
 
 .coment{
@@ -170,6 +192,7 @@ h3{
     color:grey;
 }
 
+<<<<<<< HEAD
 .list{
     position:relative;
 }
@@ -183,11 +206,9 @@ h3{
     height: 50px;
     width: 100%;
 }
+=======
+>>>>>>> cba34b83fb9d15dfd50a97ecfbf01b0b335e65e8
 
-.lists{
-    position:relative;
-    display:inline-block;
-}
 
 #other-option{
     position: absolute;
@@ -272,7 +293,11 @@ h3{
 
 #video-and-recom {
     display: flex;
+<<<<<<< HEAD
     flex-direction: ;
+=======
+    
+>>>>>>> cba34b83fb9d15dfd50a97ecfbf01b0b335e65e8
 }
 
 #upnext{
