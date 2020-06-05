@@ -9,45 +9,23 @@ In this project we are recreating a website with a simmilar interface to Youtube
 ## Built With
 
 - HTML5 & CSS3
-- Basic CSS and Bootstrap
-- 
+- Basic CSS
+- Fontawesome
 
 ## Live Demo
 
-[Live Demo Link](https://sunnysparks.github.io/embedding-images-and-video/)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[You can access to it from here](https://sunnysparks.github.io/embedding-images-and-video/)
 
 
 ## Authors
 
-👤 **Author1**
+👤 **José Francisco Silva Díaz**
 
 - Github: [@SunnySparks](https://github.com/SunnySparks)
 - Twitter: [@JosFranT6](https://twitter.com/JosFranT6)
 - Linkedin: [linkedin](https://www.linkedin.com/in/josé-francisco-silva-díaz-a2a9421a6)
 
-👤 **Author2**
+👤 **Pablo Alexis Zambrano Coral**
 
 - Github: [@Alexoid1](https://github.com/Alexoid1)
 - Twitter: [@pablo_acz](https://twitter.com/pablo_acz)
@@ -64,8 +42,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - The usage of flexbox on CSS
-- Inspiration
-- etc
+- Better understanding on how to use ids and classes
+- awareness of the importance of using semantic  tags
 
 ## 📝 License
 
