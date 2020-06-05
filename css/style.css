@@ -3,6 +3,9 @@
     margin:0px;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 #menu {
     display:flex;
@@ -240,27 +243,27 @@ h3{
     display: flex;
     flex-direction: column;
     padding-right: 4%;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .video-recom {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    
     text-align: left;
 }
 
 .canal {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    
     text-align: left;
 }
 
 .canal-vistas {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    
     text-align: left;
 }
 
@@ -318,25 +321,25 @@ h3{
 
 #views {
     margin-right: 10%;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 #like-and-dislike {
     margin-left: 20%;
 }
 
-#video-info {
+.video-info { 
     display: flex;
     flex-direction: column;
     width: 60%;
-    font-family: 'Roboto', sans-serif;
+    
     padding-left: 1%;
 }
 
 #video-title {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    
     padding-bottom: 5%;
 }
 
@@ -375,7 +378,7 @@ h3{
 #profile-and-subscribe {
     display: flex;
     flex-direction: row;
-    font-family: 'Roboto', sans-serif;
+    
     margin-top: 5%;
 }
 
