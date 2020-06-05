@@ -1,4 +1,4 @@
-# embedding-images-and-video# embed-images-and-video
+# embedding-images-and-video
 
 > A youtube clone
 
@@ -14,7 +14,7 @@ In this project we are recreating a website with a simmilar interface to Youtube
 
 ## Live Demo
 
-[You can access to it from here](https://sunnysparks.github.io/embedding-images-and-video/)
+[You can access to it by clicking on this link](https://sunnysparks.github.io/embedding-images-and-video/)
 
 
 ## Authors
@@ -33,7 +33,7 @@ In this project we are recreating a website with a simmilar interface to Youtube
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and feature requests and any type of feedback to improve are welcome!
 
 ## Show your support
 
