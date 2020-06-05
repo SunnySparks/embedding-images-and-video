@@ -39,6 +39,7 @@
 
 .search{
     padding: 8px;
+    justify-content:center;
     margin-bottom: 4px;
     width: 70%;
     border:2px solid rgb(226, 219, 219);
@@ -392,8 +393,12 @@ h3{
     margin-left: 40%;
 }
 
-#imgreaction {
+.imgreaction {
     height: 20px;
+}
+.b-share{
+    padding: 5px;
+    background: rgb(96, 96, 240);
 }
 
 #text {
