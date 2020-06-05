@@ -2,7 +2,7 @@
 
 > A youtube clone
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 In this project we are recreating a website with a simmilar interface to Youtube's
 
