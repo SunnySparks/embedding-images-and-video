@@ -20,7 +20,7 @@
                 <div id="searchbar" class='lists'>
                     <form>
                         <input class='search' type='text' placeholder='Search'>
-                        <button>
+                        <button class='sear'>
                             <i class="fa fa-search" aria-hidden="true"></i>
                         </button>
                     </form>
@@ -35,230 +35,56 @@
                 </div>
             </nav>
         </header>
-            <main id="main-container">
-                <div id="video-container">
-                    <div id="video-and-recom">
-                        <div id="video-itself">
-                            <iframe width="700" height="450" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-                        </div>
-                        <aside id="video-recom">
-                            <div id="mini-menu">
-                                <p class="video-and-recom" id="upnext">Up next</p> <p class="video-and-recom">AUTOPLAY</p> <img src="img/switch.png" id="switch" alt=''>
+           
+            <div class='videoContainer'>
+                <div class="container1">
+                    <iframe class='ifra' width="85%" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    <div id="info-and-vids">
+                        <div class='descriptionCont'>
+                            <div><p id="video-title">Contributing to Open Source Part I: The Easy Way</p></div>
+                            <div>
+                                <p id="views">57,247  views   27   feb.  2014</p>
                             </div>
-                            <div id="recom-thumbnails">
-                                <div class="recom-thumbnails">
-                                    <img src="img/thumbnail1.png" class="video-recom" alt='thumbnail'>
-                                    <div class="recom1">
-                                        <span class="vid-title"></span>
-                                        <span class="video-recom">
-                                            <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-                                            <i class="em em-sleeping"  ></i>Deep sleep music
-                                        </span>
-                                        <span class="canal">Simply Hypnotic</span>
-                                        <span class="canal-vistas">475 Are watching</span>
-                                    </div>
-                                </div>
-                                <div class="recom-thumbnails">
-                                    <img src="img/thumbnail2.png" class="video-recom" alt='thumbnail'>
-                                    <div class="recom1">
-                                        <span class="video-recom">Contributing to Open Source Part II: The Real Way</span>
-                                        <span class="canal">The Odin Project</span>
-                                        <span>35,367 views  6 years ago</span>
-                                    </div>
-                                </div>
-                                <div class="recom-thumbnails">
-                                    <img src="img/thumbnail3.png" class="video-recom" alt='thumbnail'>
-                                    <div class="recom1">
-                                        <span class="video-recom">
-                                            <i class="em em-vhs" ></i> | 24/7 Vaporwave Radio
-                                        </span><span class="canal">Krelez</span>
-                                        <span class="canal-vistas">109 Are watching</span>
-                                    </div>
-                                </div>
-                                <div class="recom-thumbnails">
-                                    <img src="img/thumbnail4.png" class="video-recom" alt='thumbnail'>
-                                    <div class="recom1">
-                                        <span class="video-recom">Rodrigo quiere toda la empresa para el</span>
-                                        <span class="canal">Shark Tank Mexico</span>
-                                        <span class="canal-vistas">Recommended for you</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
-                </div>
-                <div id="info-and-vids">
-                    <div class="info-and-vids video-info">
-                        <div class="video-info"><p id="video-title">Contributing to Open Source Part I: The Easy Way</p></div>
-                        <div id="info-text">
-                            <span id="views">57,247 views  27 feb. 2014</span>
-                            <span id="like-and-dislike">
-                                <span class="options"  >
-                                    <img src="img/like.png" class="imgreaction" alt=''>423
-                                </span>
+                        </div>     
+                        <div class='likeContainer'>  
+                                <span>
+                                    <span class="options"  >
+                                        <img src="img/like.png" class="imgreaction" alt=''>423
+                                    </span>
                                 <span class="options" >
                                     <img src="img/dislike.png" class="imgreaction" alt=''>18
                                 </span>
-                            </span>
-                            <button class='b-share'>SHARE</button>
-                            <span class="options" ><img src="img/add.png" class="imgreaction" alt=''> SAVE</span>
-                            <span class="options" >...</span>
+                                <button class='b-share'>SHARE</button>
+                                <span class="options" ><img src="img/add.png" class="imgreaction" alt=''> SAVE</span>
+                                <span class="options" >...</span>                           
                         </div>
                     <hr>
-                    <div id="profile-and-info">
-                        <div id="profile-and-subscribe">
-                            <img src="img/profile.jpg" id="profile" alt=''>
-                            <span id="profile-name">
-                                <strong>The Odin Project</strong>
-                                <br>988 subscribers
-                            </span>
-                            <img src="img/subscribe.png" id="subs" alt=''>
-                        </div>
-
+                    
+                    <div id="profile-and-subscribe">
+                        <img src="img/profile.jpg" id="profile" alt=''>
+                        <span id="profile-name">
+                            <strong>The Odin Project</strong>
+                            <br>988 subscribers
+                        </span>
+                        <img src="img/subscribe.png" id="subs" alt=''>
                     </div>
+
+                    
                     
                     <div id="text">
                         <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.</p><br>
                         <div id="extraText">
-                        <span id="cat">Category</span><span id="catName">Science and technology</span></div>
+                            <span id="cat">Category</span><span id="catName">Science and technology</span></div>
                         </div>
                         <hr>
                     </div>
                 </div>
-                </main>
-            <div class='op'> <!--container comments and  youtube suggestions -->
-                <section id="comment-section">
-                    <div class='comment-header'><h2 class='lis1'>6 Comments</h2></div>
-                    <div>
-                        <form>
-                            <input class='write-form' type='text' placeholder='Add a comment'>
-                        </form>
-                    </div>
-                    <div class="coment">
-                        <div class='user-img'>
-                            <img src="/img/user.png" alt="" height='35'>
-                        </div>
-                        <article class='user-comment'>
-                            <h3>UserName</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptate maiores dolore beatae at recusandae saepe ipsum nam tenetur quaerat?</p>
-                            <div class='comment-icons'><i class="fa fa-thumbs-up" aria-hidden="true"></i><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><div><p>RESPONSE</p></div></div>
-                        </article>
-                    </div>
-                    <div class="coment">
-                        <div class='user-img'>
-                            <img src="/img/user.png" alt="" height='35'>
-                        </div>
-                        <article class='user-comment'>
-                            <h3>UserName</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptate maiores dolore beatae at recusandae saepe ipsum nam tenetur quaerat?</p>
-                            <div class='comment-icons'><i class="fa fa-thumbs-up" aria-hidden="true"></i><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><div><p>RESPONSE</p></div></div>
-                        </article>
-                    </div>
-                    <div class="coment">
-                        <div class='user-img'>
-                            <img src="/img/user.png" alt="" height='35'>
-                        </div>
-                        <article class='user-comment'>
-                            <h3>UserName</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptate maiores dolore beatae at recusandae saepe ipsum nam tenetur quaerat?</p>
-                            <div class='comment-icons'><i class="fa fa-thumbs-up" aria-hidden="true"></i><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><div><p>RESPONSE</p></div></div>
-                        </article>
-                    </div>
-                    <div class="coment">
-                        <div class='user-img'>
-                            <img src="/img/user.png" alt="" height='35'>
-                        </div>
-                        <article class='user-comment'>
-                            <h3>UserName</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptate maiores dolore beatae at recusandae saepe ipsum nam tenetur quaerat?</p>
-                            <div class='comment-icons'><i class="fa fa-thumbs-up" aria-hidden="true"></i><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><div><p>RESPONSE</p></div></div>
-                        </article>
-                    </div>
-                    <div class="coment">
-                        <div class='user-img'>
-                            <img src="/img/user.png" alt="" height='35'>
-                        </div>
-                        <article class='user-comment'>
-                            <h3>UserName</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptate maiores dolore beatae at recusandae saepe ipsum nam tenetur quaerat?</p>
-                            <div class='comment-icons'><i class="fa fa-thumbs-up" aria-hidden="true"></i><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><div><p>RESPONSE</p></div></div>
-                        </article>
-                    </div>
-                    <div class="coment">
-                        <div class='user-img'>
-                            <img src="/img/user.png" alt="" height='35'>
-                        </div>
-                        <article class='user-comment'>
-                            <h3>UserName</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptate maiores dolore beatae at recusandae saepe ipsum nam tenetur quaerat?</p>
-                            <div class='comment-icons'><i class="fa fa-thumbs-up" aria-hidden="true"></i><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><div><p>RESPONSE</p></div></div>
-                        </article>
-                    </div>
-                </section>
-                <aside id="sidebar">
-                    <ul class='list-sidebar'>
-                        <li>
-                            <div class='youtube-suggestion'>
-                                <iframe  width="170" height="105" src="https://www.youtube.com/embed/XhfpJYGNsd4"   allowfullscreen></iframe>
-                            </div>
-                            <article class='videos-description'>
-                                <h4>Title - Description</h4>
-                                <p>Visulization</p>
-                                <p>Date</p>
-                            </article>
-                        </li>
-                        <li>
-                            <div class='youtube-suggestion'>
-                                <iframe  width="170" height="105" src="https://www.youtube.com/embed/XhfpJYGNsd4"  allowfullscreen></iframe>
-                            </div>
-                            <article class='videos-description'>
-                                <h4>Title - Description</h4>
-                                <p>Visulization</p>
-                                <p>Date</p>
-                            </article>
-                        </li>
-                        <li>
-                            <div class='youtube-suggestion'>
-                                <iframe  width="170" height="105" src="https://www.youtube.com/embed/XhfpJYGNsd4"  allowfullscreen></iframe>
-                            </div>
-                            <article class='videos-description'>
-                                <h4>Title - Description</h4>
-                                <p>Visulization</p>
-                                <p>Date</p>
-                            </article>
-                        </li>
-                        <li>
-                            <div class='youtube-suggestion'>
-                                <iframe  width="170" height="105" src="https://www.youtube.com/embed/XhfpJYGNsd4"   allowfullscreen></iframe>
-                            </div>
-                            <article class='videos-description'>
-                                <h4>Title - Description</h4>
-                                <p>Visulization</p>
-                                <p>Date</p>
-                            </article>
-                        </li>
-                        <li>
-                            <div class='youtube-suggestion'>
-                                <iframe  width="170" height="105" src="https://www.youtube.com/embed/XhfpJYGNsd4"   allowfullscreen></iframe>
-                            </div>
-                            <article class='videos-description'>
-                                <h4>Title - Description</h4>
-                                <p>Visulization</p>
-                                <p>Date</p>
-                            </article>
-                        </li>
-                        <li>
-                            <div class='youtube-suggestion'>
-                                <iframe  width="170" height="105" src="https://www.youtube.com/embed/XhfpJYGNsd4"  allowfullscreen></iframe>
-                            </div>
-                            <article class='videos-description'>
-                                <h4>Title - Description</h4>
-                                <p>Visulization</p>
-                                <p>Date</p>
-                            </article>
-                        </li>
-                    </ul>
-                </aside>
             </div>
+
+            
+                    
+            
+                
+        </div>
     </body>
 </html>
