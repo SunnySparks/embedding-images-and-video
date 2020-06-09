@@ -29,7 +29,7 @@ In this project we are recreating a website with a simmilar interface to Youtube
 
 - Github: [@Alexoid1](https://github.com/Alexoid1)
 - Twitter: [@pablo_acz](https://twitter.com/pablo_acz)
-- Linkedin: [linkedin](https://www.linkedin.com/in/pablo-alexis-zambrano-coral-7a614a189/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/pablo-alexis-zambrano-coral-7a614a189/).
 
 ## 🤝 Contributing
 
