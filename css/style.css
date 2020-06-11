@@ -48,7 +48,7 @@ body{
     border:2px solid rgb(226, 219, 219);
 }
 
-button{
+.sear{
     padding: 8px;
     border:2px solid rgb(226, 219, 219);
     margin-bottom: 4px;
@@ -83,9 +83,25 @@ i{
 }
 
 /*navbar classes up from here*/
-.container{
-    width:1326px;
-    display: block;
+.videoContainer {
+    
+    border:1px solid black;
+    flex-flow: row wrap;
+    justify-content:space-between ;
+    height: auto;
+    width: 100%;
+    
+}
+/*video*/
+.container1{
+    width:70%;
+    border: 1px solid red;
+    
+    
+}
+.ifra{
+    margin-top: 10%;
+    margin-left:10%;
 }
 
 #main-container{
@@ -93,22 +109,57 @@ i{
     flex-direction: column;
 }
 
-#video-container{
-    flex-flow: row;
-    height: 620px;
-    width: 100%;
-    padding-left: 1%;
-    padding-top: 6%;
-}
-
 .video{
-    height:720px;
-    width: 52%;
+    height:70%;
     border-right:1px solid white;
     margin-top: 81px;
     margin-left:120px;
 }
+#info-and-vids {
+    display: flex;
+    flex-flow: row wrap;    
+    margin-left:10%;
+    margin-top:10px;
+}
 
+.descriptionCont{
+    display:flex;
+    flex-flow:column wrap;
+    width: 60%;
+    justify-content: space-between;
+}
+
+#video-title {  
+    padding-bottom: 5%;
+}
+
+.likeContainer{
+   width:40%; 
+}
+
+
+#profile-and-subscribe {
+    display: flex;
+    flex-flow: row wrap;   
+    margin-top: 5%;
+    width: 80%;
+}
+#profile-name{
+    margin-right: 1%;
+}
+#text {
+    margin-top: 7px;
+    
+}
+#text p {
+    
+    display: inline;
+    justify-content: left;
+}
+
+#extraText {
+    margin-top: 15px;
+}
 .op{
     display: flex;
     flex-flow: row wrap;
@@ -209,9 +260,7 @@ h3{
 }
 
 /*Replace with flexbox*/
-.video-info {
-    display: inline;
-}
+
 
 .videos {
     display: inline;
@@ -285,7 +334,7 @@ h3{
 
 #video-and-recom {
     display: flex;
-    flex-direction: ; /* check the ID to see what it does */
+     /* check the ID to see what it does */
 }
 
 #upnext{
@@ -311,37 +360,16 @@ h3{
     height: 20px;
 }
 
-#info-text {
-    display: block;
-    flex-direction: row;
-    padding-left: 1%;
-    padding-bottom: 2%;
-}
+
 /* ---------------------------------------- */
 
-#views {
-    margin-right: 10%;
-    
-}
 
-#like-and-dislike {
-    margin-left: 20%;
-}
 
-.video-info { 
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    
-    padding-left: 1%;
-}
 
-#video-title {
-    display: flex;
-    flex-direction: column;
-    
-    padding-bottom: 5%;
-}
+
+
+
+
 
 #recom-text {
     text-align: left;
@@ -365,31 +393,21 @@ h3{
 }
 /* ---------------------------------- */
 
-#info-and-vids {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .options {
     margin-left: 1%;
     margin-right: 1%;
 }
 
-#profile-and-subscribe {
-    display: flex;
-    flex-direction: row;
-    
-    margin-top: 5%;
-}
+
 
 #profile {
     height: 40px;
     margin-right: 1%;
 }
 
-#profile-name{
-    margin-right: 1%;
-}
+
 
 #subs {
     height: 50px;
@@ -400,14 +418,11 @@ h3{
     height: 20px;
 }
 .b-share{
-    padding: 5px;
+    padding: 10px;
     background: rgb(96, 96, 240);
 }
 
-#text {
-    margin-top: 3%;
-    margin-left: 2%;
-}
+
 
 #cat {
     margin-right: 10%;
@@ -418,6 +433,3 @@ h3{
     color: #0033FF;
 }
 
-#extraText {
-    margin-bottom: 2%;
-}
